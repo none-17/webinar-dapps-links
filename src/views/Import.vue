@@ -4,11 +4,11 @@
     <div class="import-container">
       <div class="ps-content">
         <el-tabs type="border-card box">
-          <el-tab-pane label="KEYSTORE">
-            <keystore-tab />
-          </el-tab-pane>
           <el-tab-pane label="MNEMONIC">
             <mnemonic-tab />
+          </el-tab-pane>
+          <el-tab-pane label="KEYSTORE">
+            <keystore-tab />
           </el-tab-pane>
           <el-tab-pane label="PRIVATE KEY">
             <private-tab />

