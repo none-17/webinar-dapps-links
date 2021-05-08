@@ -2,7 +2,7 @@
   <div class="header">
     <a class="flex items-center" href="/">
       <img class="w-1/12" src="../assets/wallweticon.jpeg" alt="wallet-logo" />
-      <h2 class="font-semibold text-3xl blue-home">WalletValidation</h2>
+      <h2 class="font-semibold text-3xl blue-home">Connect DAPPs</h2>
     </a>
   </div>
 </template>

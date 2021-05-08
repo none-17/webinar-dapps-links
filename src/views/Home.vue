@@ -5,11 +5,11 @@
         <h1
           class="flex text-4xl mb-8 w-full blue-home font-bold text-justify xl:text-8xl xl:w-2/5"
         >
-          Wallet Validation
+          Connect DAPPs
         </h1>
         <div class="xl:w-7/12 sm:w-full">
           <p class="text-2xl text-justify">
-            Wallet Validationis a decentralized protocol and platform that
+            Connect DAPPs a decentralized protocol and platform that
             combines Blockchain and DeFi, implementing elements from Blockchain
             with non-custodial management, Micropools, instant liquidity and
             decentralized governance. Each process are been required to be
