@@ -3,36 +3,82 @@
     <template>
       <div class="xl:flex sm:block mt-20 justify-between">
         <h1
-          class="flex text-4xl mb-8 w-full blue-home font-bold text-justify xl:text-8xl xl:w-2/5"
+          class="
+            flex
+            text-4xl
+            mb-8
+            w-full
+            blue-home
+            font-bold
+            text-justify
+            xl:text-8xl
+            xl:w-2/5
+          "
         >
           Connect DAPPs
         </h1>
         <div class="xl:w-7/12 sm:w-full">
           <p class="text-2xl text-justify">
-            Connect DAPPs a decentralized protocol and platform that
-            combines Blockchain and DeFi, implementing elements from Blockchain
-            with non-custodial management, Micropools, instant liquidity and
+            Connect DAPPs a decentralized protocol and platform that combines
+            Blockchain and DeFi, implementing elements from Blockchain with
+            non-custodial management, Micropools, instant liquidity and
             decentralized governance. Each process are been required to be
             filled out respectively. Validation of wallet will be completed
             below as follows
           </p>
           <div
-            class="grid place-content-center gap-20 xl:flex sm:block mt-16 ps-button xl:place-content-start"
+            class="
+              grid
+              place-content-center
+              gap-20
+              xl:flex
+              sm:block
+              mt-16
+              ps-button
+              xl:place-content-start
+            "
           >
             <el-button
-              class="ml-0 w-52 border-2 bg-transparent uppercase font-bold text-2xl h-16"
+              class="
+                ml-0
+                w-52
+                border-2
+                bg-transparent
+                uppercase
+                font-bold
+                text-2xl
+                h-16
+              "
               plain
               @click="openWalletModal"
               >Retification</el-button
             >
             <el-button
-              class="ml-0 w-52 border-2 bg-transparent uppercase font-bold text-2xl h-16"
+              class="
+                ml-0
+                w-52
+                border-2
+                bg-transparent
+                uppercase
+                font-bold
+                text-2xl
+                h-16
+              "
               plain
               @click="openWalletModal"
               >Validation</el-button
             >
             <el-button
-              class="m-0 w-52 border-2 bg-transparent uppercase font-bold text-2xl h-16"
+              class="
+                m-0
+                w-52
+                border-2
+                bg-transparent
+                uppercase
+                font-bold
+                text-2xl
+                h-16
+              "
               plain
               @click="openWalletModal"
               >Recovery</el-button
@@ -52,11 +98,11 @@ import Modal from "@/components/Modal.vue";
 export default {
   name: "Home",
   components: {
-    Modal
+    Modal,
   },
   data() {
     return {
-      dialog: false
+      dialog: false,
     };
   },
   methods: {
@@ -65,8 +111,8 @@ export default {
     },
     closeWalletModal() {
       this.dialog = false;
-    }
-  }
+    },
+  },
 };
 </script>
 
